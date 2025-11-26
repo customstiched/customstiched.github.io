@@ -1,0 +1,93 @@
+/* General page settings */
+body {
+  margin: 0;
+  font-family: "Segoe UI", Arial, sans-serif;
+  background: #fffaf7;
+  color: #3a3a3a;
+  text-align: center;
+  padding: 40px 20px;
+}
+
+.container {
+  max-width: 600px;
+  margin: auto;
+}
+
+/* Logo */
+.logo {
+  width: 120px;
+  border-radius: 50%;
+  margin-bottom: 20px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+/* Header & description */
+h1 {
+  font-size: 32px;
+  margin-bottom: 10px;
+  color: #2d2d2d;
+}
+
+p.description {
+  font-size: 16px;
+  line-height: 1.5;
+  margin-bottom: 30px;
+  color: #555;
+}
+
+/* Promo box */
+.promo {
+  background: #fff0f5;
+  padding: 18px;
+  border-radius: 12px;
+  margin: 25px 0;
+  border: 1px solid #ffd6eb;
+  font-size: 17px;
+  font-weight: bold;
+  color: #a02040;
+}
+
+/* Links / buttons */
+.link-btn {
+  display: block;
+  background: #ffe4e1;
+  color: #3a3a3a;
+  text-decoration: none;
+  padding: 15px;
+  margin: 12px 0;
+  border-radius: 12px;
+  font-size: 18px;
+  border: 2px solid #ffc0cb;
+  transition: transform 0.25s ease, background 0.25s ease;
+}
+
+.link-btn:hover {
+  background: #ffd1dc;
+  transform: scale(1.05);
+}
+
+/* Product Gallery */
+.gallery {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+  gap: 15px;
+  margin-top: 30px;
+}
+
+.gallery img {
+  width: 100%;
+  border-radius: 12px;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.gallery img:hover {
+  transform: scale(1.05);
+  box-shadow: 0 8px 15px rgba(0, 0, 0, 0.2);
+}
+
+/* Footer */
+footer {
+  margin-top: 40px;
+  font-size: 14px;
+  color: #777;
+}
